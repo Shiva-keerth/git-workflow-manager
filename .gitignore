@@ -1,0 +1,11 @@
+# This project's own .gitignore
+../.venv/
+venv/
+__pycache__/
+*.pyc
+.idea/
+.vscode/
+logs/
+*.log
+.env
+config.json
