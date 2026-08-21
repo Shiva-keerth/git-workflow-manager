@@ -1,0 +1,103 @@
+# ============================================
+# GLOBAL GITIGNORE — Applied to ALL repos
+# Security + Cleanliness protection
+# ============================================
+
+# ---------- SECRETS & CREDENTIALS ----------
+.env
+.env.*
+.env.local
+.env.production
+.env.development
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+credentials.json
+secrets.json
+service-account*.json
+*_credentials.json
+*.secret
+token.json
+auth.json
+
+# ---------- API KEYS (common filenames) ----------
+apikeys.*
+api_keys.*
+config.local.*
+
+# ---------- PYTHON ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# ---------- IDE & EDITORS ----------
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ---------- OS FILES ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# ---------- DEPENDENCIES ----------
+node_modules/
+bower_components/
+jspm_packages/
+package-lock.json
+
+# ---------- LARGE/BINARY FILES ----------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.msi
+*.dmg
+*.iso
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------- JUPYTER ----------
+.ipynb_checkpoints/
+
+# ---------- LOGS ----------
+*.log
+logs/
